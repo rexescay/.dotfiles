@@ -1,0 +1,51 @@
+! URxvt general settings
+URxvt*cursorBlink: true
+
+URxvt*font: xft:monospace:size=10
+URxvt*letterSpace: -2
+
+! URxvt terminal scrollbar
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*scrollBar: false
+
+! URxvt terminal colour settings
+URxvt*background: #000000
+URxvt*foreground: #ffffff
+! black
+URxvt*color0: #000000
+URxvt*color8: #000000
+! green
+URxvt*color1: #01df74
+URxvt*color9: #01df74
+! red
+URxvt*color2: #fe2e2e
+URxvt*color10: #fe2e2e
+! yellow
+URxvt*color3: #f3f781
+URxvt*color11: #f3f781
+! dark blue
+URxvt*color4: #5858fa
+URxvt*color12: #5858fa
+! magenta
+URxvt*color5: #fa58d0
+URxvt*color13: #fa58d0
+! arch blue
+URxvt*color6: #2eccfa
+URxvt*color14: #2eccfa
+! white
+URxvt*color7: #e6e6e6
+URxvt*color15: #e6e6e6
+
+URxvt*underlineColor: #01df74
+URxvt*highlightColor: #f3f781
+
+! URxvt clickable URLs
+URxvt*matcher.button: 1
+URxvt*perl-ext-common: default,matcher
+!URxvt*url-select.launcher: 
+URxvt*url-select.underline: true
+
+! URxvt performance
+URxvt*skipBuiltinGlyphs: true
