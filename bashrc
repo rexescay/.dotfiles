@@ -16,7 +16,7 @@ alias grep="grep --color"
 # Convinience and misc.
 alias cm="chmod"
 alias rm="rm -i"
-alias f="screenfetch -n"
+alias f="ufetch"
 
 # Scripts
 alias greentext="python3 ~/.scripts/greentext.py"
