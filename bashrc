@@ -22,5 +22,6 @@ alias f="ufetch"
 alias greentext="python3 ~/.scripts/greentext.py"
 alias pygrep="python3 ~/.scripts/pygrep.py"
 alias sort_directory="python3 ~/.scripts/sort_directory.py"
+alias organise="sh ~/.scripts/organise.sh"
 
 PS1='\e[0;31m[$(tput bold)\u\e[m\e[0;33m@\e[m\e[0;36m$(tput bold)\h\e[m \e[0;31m\w]\e[m \e[0;33m$(tput bold)\$\e[m\n \e[0;36m->\e[m '
