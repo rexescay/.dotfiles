@@ -19,4 +19,5 @@
 nitrogen --restore &
 xfce4-panel &
 xfce4-power-manager &
+compton -b &
 volumeicon &
