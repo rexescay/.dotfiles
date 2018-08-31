@@ -92,8 +92,8 @@ bindsym $mod+Shift+r restart
 # Split toggle
 bindsym $mod+v split toggle
 
-exec --no-startup-id compton
-exec --no-startup-id feh --bg-scale ~/images/wallpapers/circl.jpg
+exec --no-startup-id compton --xrender-sync-fence -b &
+exec nitrogen --restore &
 
 # ----------- Status bar ---------------
 bar {

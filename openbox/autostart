@@ -20,3 +20,4 @@ nitrogen --restore &
 xfce4-panel &
 xfce4-power-manager &
 volumeicon &
+compton --xrender-sync --xrender-sync-fence -b &
