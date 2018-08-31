@@ -93,7 +93,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+v split toggle
 
 exec --no-startup-id compton --xrender-sync-fence -b &
-exec nitrogen --restore &
+exec --no-startup-id nitrogen --restore &
 
 # ----------- Status bar ---------------
 bar {
