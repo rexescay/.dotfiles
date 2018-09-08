@@ -24,4 +24,4 @@ alias pygrep="python3 ~/.scripts/pygrep.py"
 alias sort_directory="python3 ~/.scripts/sort_directory.py"
 alias organise="sh ~/.scripts/organise.sh"
 
-PS1='[\w]\n -> \$ '
+PS1='[\w][$(git branch 2>/dev/null | grep '^*' | colrm 1 2)]\n -> \$ '
